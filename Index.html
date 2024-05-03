@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Multiplication Calculator</title>
+</head>
+<body>
+    <h1>Matrix Multiplication Calculator</h1>
+    <div>
+        <label>Enter the number of rows for Matrix A: </label>
+        <input type="number" id="rowsA">
+        <label>Enter the number of columns for Matrix A: </label>
+        <input type="number" id="colsA"><br>
+        <div id="matrixA"></div>
+    </div>
+    <div>
+        <label>Enter the number of rows for Matrix B: </label>
+        <input type="number" id="rowsB">
+        <label>Enter the number of columns for Matrix B: </label>
+        <input type="number" id="colsB"><br>
+        <div id="matrixB"></div>
+    </div>
+    <button onclick="calculate()">Calculate</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
